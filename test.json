@@ -1,0 +1,16 @@
+{
+	"product": [{
+			"name": "national-radar-mosaic",
+			"timer": 6,
+			"regex": "^ACHN\\.(C|Q)REF000\\.\\d{8}\\.\\d{4}00\\.latlon$",
+			"root": "D:/www/eee",
+			"recursion":false,
+			"path": [
+				{
+					"src": "/",
+					"dst": "/"
+				}
+			]
+		}
+	]
+}
